@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <title>Document</title>
+</head>
+<style>
+    .container-fluid {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
+    .d-inline {
+        margin: 20px;
+    }
+
+    .row-eq-height {
+        display: flex;
+
+    }
+
+    .card:hover {
+        box-shadow: 2px 2px 2px #787878;
+        ;
+    }
+
+    .button {
+        margin: 0 auto;
+        background-color: #134B8A;
+        float: right;
+        border-radius: 20px;
+        padding: 15px 25px;
+    }
+
+    .button:hover {
+        background-color: rgb(240, 82, 82);
+
+    }
+
+    @media (max-width : 786px) {
+        .erp-head {
+            font-weight: bolder;
+            text-align: center;
+            font-size: 18px;
+        }
+
+        .row-eq-height {
+            padding: 0px !important;
+        }
+
+        .erp-para {
+            font-size: 16px !important;
+            padding-top: 30px !important;
+
+        }
+
+        .intro-img {
+            height: 200px !important;
+        }
+
+        .pad-b {
+            margin-bottom: 15px;
+        }
+    }
+</style>
+
+<body>
+    <div class="container-fluid">
+
+        <!-- introduction start -->
+
+        <div class="d-inline">
+            <div style="text-align: center;">
+                <img alt="logo" src="https://pukat.net/assets/uploads/media-uploader/onecrm1686573287.svg" width="313"
+                    height="105" /><br>
+            </div>
+            <br>
+            <h1 class="erp-head" style="text-align: center;">Transform Your Business with a Game-Changing  <br><span
+                    style="color: rgb(240, 82, 82);">ONE-CRM </span></h1>
+            <div class="row row-eq-height" style="padding: 0px 60px;">
+                <div class="col-lg-6">
+                    <div>
+                        <p style="font-size: 18px;text-align: justify;padding-top: 60px;">
+                            Here, we proudly present our state-of-the-art One-CRM (Customer Relationship Management)
+                            solution that is designed to revolutionize the way you manage your customer interactions and
+                            drive your business towards unprecedented success. With our CRM software, you can unlock the
+                            full potential of your customer relationships, streamline your processes, and maximize your
+                            revenue. Don't let valuable customer relationships slip away. Empower your team with our
+                            cutting-edge CRM solution and unlock the full potential of your business. Whether you're
+                            looking to boost sales, improve customer satisfaction, or enhance collaboration, our CRM
+                            software provides the tools you need to thrive in today's competitive landscape. <br>
+                            Contact us today to schedule a personalized demo and discover how our CRM solution can
+                            revolutionize your business growth. Together, let's build stronger customer relationships
+                            and achieve unparalleled success!
+                        </p>
+
+                    </div>
+                </div>
+                <div class="col-lg-6"><img class="intro-img"
+                        src="https://pukat.net/assets/uploads/media-uploader/one-crm1686573826.svg" width="650"
+                        height="500" /></div>
+            </div>
+            <br>
+
+
+            <!-- FEATURES OF ERP -->
+            <div class="d-inline">
+                <h1 class="erp-head" style="text-align: center;">Why Choose Our <span style="color:rgb(240, 82, 82) ;">
+                        CRM</span> Solution?</h1>
+                <hr>
+                <div class="row row-eq-height" style="padding: 0px 120px;">
+                    <div class="col-lg-6" style="padding: 20px;">
+                        <ul>
+                            <li>Comprehensive Customer Insights</li>
+                            <li>Seamless Collaboration</li>
+                            <li>Sales Pipeline Management</li>
+                            <li>Automation and Workflow Optimization</li>
+                        </ul>
+
+                    </div>
+                    <div class="col-lg-6" style="padding: 20px;">
+                        <ul>
+                            <li>Customer Support and Service</li>
+                            <li>Data Security and Privacy</li>
+                            <li>Scalability and Flexibility</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <br>
+
+
+            <!-- DESCRIPTION OF PROCEDURES AND FUNCTIONALITIES -->
+            <div class="d-inline">
+                <div style=" width: full;">
+                    <h1 class="erp-head" style="text-align: center;">Unleash the Power of <span
+                            style="color:rgb(240, 82, 82) ;">CRM Modules:</span> Optimize Every Aspect of Customer
+                        Relationship Management</h1>
+
+                    <hr>
+                    <marquee behavior="slide" direction="up" scrollamount="5">
+                        <div class="row row-eq-height" style="padding: 20px;">
+                            <div class="col-lg-6 pad-b">
+                                <div class="card"
+                                    style="padding:20px 60px; border-radius:20px ; height: 100% !important;font-size: 16px;">
+                                    <ul>
+                                        <li>Contact and Lead Management</li>
+                                        <li>Sales and Opportunity Management</li>
+                                        <li>Identify and engage the right customers</li>
+                                        <li>Improve customer interaction</li>
+                                        <li>Track progress across the customer journey</li>
+                                        <li>Increase team productivity</li>
+                                        <li>Interaction Tracking</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="card"
+                                    style="padding:20px 60px; border-radius:20px; height: 100% !important; font-size: 16px;">
+
+                                    <ul>
+                                        <li>Workflow Automation</li>
+                                        <li>Customer Support and Service</li>
+                                        <li>Mobile Access</li>
+                                        <li>Integration Capabilities</li>
+                                        <li>Scalability and Customization</li>
+                                        <li>Data Security and Privacy</li>
+                                        <li>Reporting and Analytics</li>
+                                    </ul>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </marquee>
+
+
+
+
+                </div>
+
+            </div>
+
+            <!-- Industries we Serves -->
+            <div class="d-inline">
+                <h1 class="erp-head" style="text-align: center;">Industry We <span style="color:rgb(240, 82, 82) ;">
+                        Serve</span> </h1>
+                <hr>
+                <div class="row row-eq-height" style="padding: 0px 120px;">
+                    <div class="col-lg-6" style="padding: 20px;">
+                        <ul>
+                            <li>Manufacturing</li>
+                            <li>Retail and Wholesale</li>
+                            <li>Distribution and Logistics</li>
+                            <li>Healthcare</li>
+                            <li>Financial Services</li>
+                        </ul>
+
+                    </div>
+                    <div class="col-lg-6" style="padding: 20px;">
+                        <ul>
+                            <li>Construction and Engineering</li>
+                            <li>Hospitality and Tourism</li>
+                            <li>Professional Services</li>
+                            <li>Education</li>
+                            <li>Government and Public Sector</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="d-inline ">
+                <div style="padding-right: 70px ;">
+                    <marquee behavior="slide" direction="up" scrollamount="3">
+                        <div class="button"><a style="text-decoration: none;padding: 15px 25px;color: white;"
+                                href="https://www.pukat.net/contact">Contact Us</a></div>
+                    </marquee>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+
+</body>
+
+</html>
